@@ -1,0 +1,17 @@
+{
+  "name": "paddle-webhook-types",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "generate": "rm -rf types/ && json2ts -i schemas/ -o types/ && ts-dedupe -d types/common.d.ts -b types/index.d.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "add": "^2.0.6",
+    "json-schema-to-typescript": "^10.1.4",
+    "ts-dedupe": "^0.3.1",
+    "typescript": "^4.4.2",
+    "yarn": "^1.22.11"
+  }
+}
