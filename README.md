@@ -23,7 +23,7 @@ import { PaymentRefunded } from "paddle-webhook-types";
   - Subscription Payment Succeeded
   - Subscription Payment Failed
   - Subscription Payment Refunded
-- One-off purchase alerts
+- One-off purchase Alerts
   - Payment Succeeded
   - Payment Refunded
   - Order Processing Completed
