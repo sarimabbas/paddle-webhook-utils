@@ -13,3 +13,17 @@ yarn add paddle-webhook-types -D
 ```ts
 import { PaymentRefunded } from "paddle-webhook-types";
 ```
+
+## Type definitions available for:
+
+- Subscription Alerts
+  - Subscription Created
+  - Subscription Updated
+  - Subscription Cancelled
+  - Subscription Payment Succeeded
+  - Subscription Payment Failed
+  - Subscription Payment Refunded
+- One-off purchase alerts
+  - Payment Succeeded
+  - Payment Refunded
+  - Order Processing Completed
