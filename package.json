@@ -1,6 +1,9 @@
 {
   "name": "paddle-webhook-types",
-  "version": "1.0.0",
+  "repository": {
+    "url": "github.com/sarimabbas/paddle-webhook-types"
+  },
+  "version": "1.0.2",
   "types": "./types/index.d.ts",
   "license": "MIT",
   "scripts": {
