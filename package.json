@@ -2,14 +2,16 @@
   "name": "paddle-webhook-utils",
   "repository": "github:sarimabbas/paddle-webhook-utils",
   "homepage": "https://github.com/sarimabbas/paddle-webhook-utils",
-  "version": "2.0.3",
+  "version": "2.1.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "zx scripts/build-script.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "php-serialize": "^4.0.2"
+  },
   "devDependencies": {
     "add": "^2.0.6",
     "json-schema-to-typescript": "^10.1.4",

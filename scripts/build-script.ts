@@ -9,6 +9,7 @@ const pathToSrc = path.join(__dirname, "../src");
 void (async function () {
   // clear old files
   await $`rm -rf ${pathToSrc}/webhooks/interfaces`;
+  await $`rm -f ${pathToSrc}/webhooks/index.ts`;
 
   // convert paddle JSON schemas to typescript declaration files
   await $`json2ts -i ${pathToSrc}/webhooks/schemas -o ${pathToSrc}/webhooks/interfaces`;
