@@ -14,7 +14,7 @@ yarn add paddle-webhook-utils -D
 import { PaymentRefunded } from "paddle-webhook-utils";
 ```
 
-## Type definitions available for:
+## Types available for:
 
 - Subscription Alerts
   - Subscription Created
