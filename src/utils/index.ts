@@ -8,7 +8,7 @@ interface RequestBody {
 
 // this function takes in the entirety of the Paddle request body, gets the
 // p_signature and verifies it against the public key
-export const validatePaddleWebhook = async ({
+export const validatePaddleWebhook = ({
   webhookData,
   publicKey,
 }: {
