@@ -3,10 +3,11 @@
   "repository": "github:sarimabbas/paddle-webhook-types",
   "homepage": "https://github.com/sarimabbas/paddle-webhook-types",
   "version": "1.0.3",
-  "types": "./types/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "generate": "rm -rf types/ && json2ts -i schemas/ -o types/ && ts-dedupe -d types/common.d.ts -b types/index.d.ts"
+    "build": "zx scripts/build-script.ts"
   },
   "dependencies": {},
   "devDependencies": {
@@ -14,6 +15,7 @@
     "json-schema-to-typescript": "^10.1.4",
     "ts-dedupe": "^0.3.1",
     "typescript": "^4.4.2",
-    "yarn": "^1.22.11"
+    "yarn": "^1.22.11",
+    "zx": "^4.1.1"
   }
 }
