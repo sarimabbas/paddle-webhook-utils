@@ -1,8 +1,8 @@
 {
-  "name": "paddle-webhook-types",
-  "repository": "github:sarimabbas/paddle-webhook-types",
-  "homepage": "https://github.com/sarimabbas/paddle-webhook-types",
-  "version": "1.0.3",
+  "name": "paddle-webhook-utils",
+  "repository": "github:sarimabbas/paddle-webhook-utils",
+  "homepage": "https://github.com/sarimabbas/paddle-webhook-utils",
+  "version": "2.0.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",

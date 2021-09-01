@@ -1,17 +1,17 @@
-# Paddle Webhook Types
+# Paddle Webhook Utils
 
-I couldn't find TypeScript definitions for Paddle's webhook payloads, so I created them myself. Open up an issue if you find something is wrong!
+I couldn't find TypeScript declarations for Paddle's webhook payloads, so I created them myself. Open up an issue if you find something is wrong!
 
 ## Installation
 
 ```
-yarn add paddle-webhook-types -D
+yarn add paddle-webhook-utils -D
 ```
 
 ## Usage
 
 ```ts
-import { PaymentRefunded } from "paddle-webhook-types";
+import { PaymentRefunded } from "paddle-webhook-utils";
 ```
 
 ## Type definitions available for:
